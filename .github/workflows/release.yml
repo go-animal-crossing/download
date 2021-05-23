@@ -38,7 +38,7 @@ jobs:
         draft: false
         prerelease: false
     - name: goreleaser
-      uses: goreleaser/goreleaser-action@master
+      uses: goreleaser/goreleaser-action@v2
       with:
         args: release
       env:
