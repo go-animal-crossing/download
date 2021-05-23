@@ -18,7 +18,7 @@ var API = map[string]string{
 	// "art":       "https://acnhapi.com/v1a/art",
 }
 
-var poolSize = 10
+var poolSize = 20
 var directories = map[string]string{
 	"data":   "./_source/data/",
 	"images": "./_source/images/",
