@@ -23,6 +23,8 @@ jobs:
         WITH_V: true
     - name: Create latest tag
       run: |
+        git config --global user.email "runner@go-animal-crossing.com"
+        git config --global user.name "Github Action"      
         git tag -fa "latest" -m "latest"
         git push origin main --force
     - name: Create Release
