@@ -9,8 +9,8 @@ release:
     name: download
 
 builds:
-  - binary: acnh
-    id: acnh
+  - binary: download
+    id: download
     main: ./main.go
     goos:
       - freebsd
