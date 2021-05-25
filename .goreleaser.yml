@@ -13,9 +13,6 @@ builds:
     id: download
     main: ./main.go
     goos:
-      - freebsd
-      - openbsd
-      - solaris
       - linux
       - darwin
     goarch:
