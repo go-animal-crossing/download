@@ -2,6 +2,7 @@ package main
 
 import (
 	"download/downloads"
+	"fmt"
 
 	"github.com/spf13/afero"
 )
